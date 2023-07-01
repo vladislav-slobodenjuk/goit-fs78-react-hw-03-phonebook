@@ -14,7 +14,7 @@ export default function ContactList({ contacts, onDeleteClick }) {
       ))}
       {contacts.length === 0 && (
         <li>
-          <p>Nothing found</p>
+          <p className="emptyList">Nothing found</p>
         </li>
       )}
     </StyledList>

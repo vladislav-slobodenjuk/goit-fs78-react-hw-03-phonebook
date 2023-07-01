@@ -23,15 +23,15 @@ export const StyledList = styled.ul`
       display: flex;
       justify-content: space-between;
       flex-grow: 1;
+
+      &.emptyList {
+        justify-content: center;
+      }
     }
 
     span {
       align-self: flex-end;
     }
-  }
-
-  p {
-    text-align: center;
   }
 
   button {
